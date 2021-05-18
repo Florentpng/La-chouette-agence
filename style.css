@@ -13,6 +13,11 @@ button {
     outline: none!important;
 }
 
+a:focus,
+button:focus {
+    border: 2px solid blue;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
