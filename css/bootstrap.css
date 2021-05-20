@@ -4219,7 +4219,7 @@ fieldset[disabled] .btn-link:hover {
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.3333333;
-    border-radius: 6px
+    border-radius: 40px
 }
 
 .btn-group-sm>.btn,
@@ -4262,10 +4262,6 @@ input[type=submit].btn-block {
 
 .fade.in {
     opacity: 1
-}
-
-.collapse {
-    display: none
 }
 
 .collapse.in {
