@@ -18,6 +18,10 @@ button:focus {
     border: 2px solid blue;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -36,7 +40,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -165,6 +168,11 @@ a:hover {
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
+}
+
+.nav {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .d-bloc .btn-wire,
@@ -472,6 +480,14 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+.form {
+    display: grid;
+}
+
+.con {
+    margin-top: 20px;
+}
+
 button {
     outline: none!important;
 }
@@ -520,6 +536,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+}
+
+.form-group {
+    display: grid;
 }
 
 .form-group span {
